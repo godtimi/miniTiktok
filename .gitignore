@@ -1,0 +1,14 @@
+.vscode/
+.idea/
+hbase-data/
+hbase-2.1.3/
+hbase-zoo-data/
+*_data/
+tmp
+log
+zip
+
+__debug*
+applications/api/docs/swagger.yaml
+
+go.sum

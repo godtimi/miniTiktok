@@ -1,0 +1,53 @@
+Global:
+  Source: "config(local)"
+  ChangeMe: "v1"
+
+JWT:
+  signingKey: "signingKey"
+
+Etcd:
+  Address: "localhost"
+  Port: 2379
+
+Server:
+  Name: "DouTokFeedServer"
+  Address: "feed"
+  Port: 8083
+
+Client:
+  Echo: true
+  Foo: "bar"
+  Servers:
+    - "127.0.0.1"
+    - "192.168.1.1"
+
+MySQL:
+  Host: "localhost"
+  Port: 3306
+  Username: "admin"
+  Password: "root"
+  Database: "DouTok"
+  CharSet: "utf8mb4"
+  ParseTime: true
+  loc: "Local"
+
+HBase:
+  Host: "localhost"
+
+Snowflake:
+  Node: 501
+
+OSS:
+  Endpoint: "oss-cn-shanghai.aliyuncs.com"
+  Key: ""
+  Secret: ""
+  Bucket: "DouTok-video"
+  Callback: ""
+
+Redis:
+  Dest: "localhost:6379"
+  Password: "root"
+  SendBox:
+    Num: 1
+  MarkdedTime:
+    Num: 2

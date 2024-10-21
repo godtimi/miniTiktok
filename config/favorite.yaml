@@ -1,0 +1,29 @@
+Global:
+  Source: "config(local)"
+  ChangeMe: "v1"
+
+JWT:
+  signingKey: "signingKey"
+
+Etcd:
+  Address: "localhost"
+  Port: 2379
+
+Server:
+  Name: "DouTokFavoriteServer"
+  Address: "127.0.0.1"
+  Port: 8091
+
+Client:
+  Echo: true
+  Foo: "bar"
+  Servers:
+    - "127.0.0.1"
+    - "192.168.1"
+
+Snowflake:
+  Node: 602
+
+Otel:
+  Host: "82.156.171.8"
+  Port: 4317
